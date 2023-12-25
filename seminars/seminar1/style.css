@@ -1,0 +1,80 @@
+:root{
+    --link_blue: blue;
+    --link_darkblue: darkblue;
+    --link_red: red;
+    --link_darkred: darkred;
+
+}
+
+.body {
+    font-family: sans-serif;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    margin: 0 0 0 30px;
+}
+
+.navigation__link {
+    color: var(--link_blue);
+}
+
+.navigation__link:hover{
+    color: var(--link_darkblue);
+}
+
+.nav__link_red{
+    color: var(--link_red);
+}
+
+.nav__link_red:hover{
+    color: var(--link_darkred);
+}
+
+.header1 {
+    color: #222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.header2__index {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.image__about_me {
+    border-radius: 10px;
+    width: 150px;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
